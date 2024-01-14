@@ -104,17 +104,11 @@ def find_songs():
 
     #-------------------------
     
-    tracks_details = requests.get(user_playlists[0]['track_routes'], headers=headers)
-    tracks_details = tracks_details.json()
-    tracks_details = tracks_details['items']
+    #tracks_details = requests.get(user_playlists[0]['track_routes'], headers=headers)
+    #tracks_details = tracks_details.json()
+    #tracks_details = tracks_details['items']
 
-    tracks = []
-
-    for track in tracks_details:
-        tracks.append(track['track']['name'])
-    
-    #return tracks_details
-    return tracks
+    #tracks = []
 
     #!
 
